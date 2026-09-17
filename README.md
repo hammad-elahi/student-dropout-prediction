@@ -42,7 +42,9 @@ Note: some column names reflect the Portuguese academic system and differ from c
 
 ## Live Application
 
-[Link to be added after deployment]
+## Live Application
+
+[Try the live app here](https://student-dropout-prediction-wmqdjhb84fmguduv9ctfwz.streamlit.app/)
 
 ## Files
 
