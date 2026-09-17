@@ -24,6 +24,8 @@ Note: some column names reflect the Portuguese academic system and differ from c
 4. **Evaluation**: Assessed using accuracy, precision, recall, F1-score, confusion matrix, and ROC-AUC
 5. **Application**: Built an interactive Streamlit app for real-time risk prediction on new student data
 
+Note: the application interface collects the key inputs identified as the strongest predictors during analysis (academic performance and financial status). Remaining features use representative default values to keep the interface simple, since they showed minimal correlation with dropout in the exploratory analysis.
+
 ## Key Findings
 
 - Academic performance (curricular units approved per semester) and financial standing (tuition payment status) were the strongest predictors of dropout
@@ -42,8 +44,6 @@ Note: some column names reflect the Portuguese academic system and differ from c
 
 ## Live Application
 
-## Live Application
-
 [Try the live app here](https://student-dropout-prediction-wmqdjhb84fmguduv9ctfwz.streamlit.app/)
 
 ## Files
@@ -53,8 +53,8 @@ Note: some column names reflect the Portuguese academic system and differ from c
 - `model.pkl` - Trained Logistic Regression model
 - `scaler.pkl` - Fitted MinMaxScaler
 - `dataset.csv` - UCI Student Dropout dataset
+- `requirements.txt` - Python dependencies for deployment
 
 ## Tools Used
 
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Streamlit
-
